@@ -1,5 +1,46 @@
-html, 
-body {
+
+/*******************
+    General
+*******************/
+*, ::before, ::after {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
+ul {
+    list-style: none;
+}
+/*******************
+    Header
+*******************/
+header {
+    padding: 2rem 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.logo-img {
+    font-size: 1.25rem;
+}
+.logo-wording {
+    font-family: 'Roboto', sans-serif;
+}
+header nav ul {
+    display: flex;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+header nav li:first-child {
+    margin-right: 1rem;
+}
+
+/*******************
+    Main
+*******************/
+.landing-section {
+    background-image: url('images/landing-img.jpg');
 }
